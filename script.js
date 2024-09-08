@@ -17,7 +17,7 @@ function handleNext() {
 
         // 数秒後に自動でGoogleマップのレビュー画面に遷移
         setTimeout(() => {
-            window.location.href = 'https://www.google.com/maps/place/your-business-location'; // 適切なURLを入力してください
+            window.location.href = 'https://search.google.com/local/writereview?placeid=ChIJBWueYZaPQTURzBI1Tcb36Uw'; // 適切なURLを入力してください
         }, 5000); // 5秒後に遷移
     } else {
         // それ以外の評価ではコメント入力画面に遷移
@@ -46,5 +46,5 @@ function submitComment() {
 
 function redirectToGoogle() {
     // Googleマップの評価ページにリダイレクト
-    window.location.href = 'https://www.google.com/maps/place/YOUR_BUSINESS_PLACE'; // YOUR_BUSINESS_PLACEを実際の場所に置き換えてください
+    window.location.href = 'https://search.google.com/local/writereview?placeid=ChIJBWueYZaPQTURzBI1Tcb36Uw'; // YOUR_BUSINESS_PLACEを実際の場所に置き換えてください
 }
